@@ -8,7 +8,7 @@ from langchain_core.prompts import ChatPromptTemplate
 app = Flask(__name__)
 
 # Set your API key
-os.environ["OPENROUTER_API_KEY"] = "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"
+os.environ["OPENROUTER_API_KEY"] = "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"
 
 # Initialize model
 model = init_chat_model(
